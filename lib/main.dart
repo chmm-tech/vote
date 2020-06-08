@@ -35,7 +35,7 @@ class VoteApp extends StatelessWidget {
                 icon: Icon(Icons.home),
                 color: Colors.white,
                 onPressed: (){
-                  Navigator.pushReplacementNamed(context, '/homes');
+                  Navigator.pushReplacementNamed(context, '/home');
                 },
               ),
             ),
